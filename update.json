@@ -1,1 +1,13 @@
-{"response": []}
+{
+  "response": [
+    {
+      "datetime": 1792199342,
+      "filename": "vmax_joan-userdebug-20261017010902-signed-ota.zip",
+      "id": "37f298a177120a1c1ede84d8143567585f738fdeb7a0c35a6b7aac9aca2ba5ef",
+      "romtype": "release",
+      "size": 1065569979,
+      "url": "https://github.com/cLick1338/vmax/releases/download/20261017010902/vmax_joan-userdebug-20261017010902-signed-ota.zip",
+      "version": "22.2"
+    }
+  ]
+}
