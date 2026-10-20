@@ -1,12 +1,12 @@
 {
   "response": [
     {
-      "datetime": 1792250039,
-      "filename": "vmax_joan-userdebug-20261017151352-signed-ota.zip",
-      "id": "0ae60b2035e6320696fa57a0140bd5f1657799f157054adff9ae745dd3b0ebfb",
+      "datetime": 1792503414,
+      "filename": "vmax_joan-userdebug-20261020133647-signed-ota.zip",
+      "id": "791edd7e3a728ffe7ce3bb7659f8ca18525d2421b551fa7e45dc2809ef21036c",
       "romtype": "release",
-      "size": 1064864247,
-      "url": "https://github.com/cLick1338/vmax/releases/download/20261017151352/vmax_joan-userdebug-20261017151352-signed-ota.zip",
+      "size": 1065178617,
+      "url": "https://github.com/cLick1338/vmax/releases/download/20261020133647/vmax_joan-userdebug-20261020133647-signed-ota.zip",
       "version": "22.2"
     }
   ]
