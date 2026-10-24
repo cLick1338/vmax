@@ -30,8 +30,9 @@ And more:
 <sub> \** Wide gamut & HDR requires compatible apps. Chrome browsers need certain flags on some pages. Recommend Youtube in browser for HDR, the app can lag more and have wrong tonemapping.</sub>
 
 ### Installation
-At the moment there's only been extensive testing on H930. Other variants should work but do it at your own risk. Any feedback is always welcome
 TL;DR flash the recovery then the ROM
+
+At the moment there's only been extensive testing on H930. Other variants should work but do it at your own risk. Any feedback is always welcome
 
 1. You need a V30 "joan" model with an unlocked bootloader and a computer with adb+fastboot
 2. [Download the latest release](https://github.com/cLick1338/vmax/releases) on the computer
