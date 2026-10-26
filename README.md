@@ -40,4 +40,5 @@ At the moment there's only been extensive testing on H930. Other variants should
 4. Reboot to fastboot/bootloader and fastboot flash recovery the recovery.img (can use LOS recovery but unattended OTA updates do not work with it)
 5. Reboot to recovery, full wipe (only if you're coming from another ROM) then Apply update -> Apply from ADB -> adb sideload the ROM zip
 6. Flash GApps if you need them. Recommend [Lite GApps](https://litegapps.github.io/) 15.0 - [Lite](https://sourceforge.net/projects/litegapps/files/litegapps/arm64/35/lite/2026-10-01/LiteGapps-arm64-15.0-20261001-official.zip/download) or [Core](https://sourceforge.net/projects/litegapps/files/litegapps/arm64/35/core/2026-10-01/LiteGapps-core-arm64-15.0-20261001-official.zip/download) package
-7. Reboot and enjoy!
+7. If you need root (besides the already available adb root) only use methods that patch the kernel (boot.img); Vmax has a custom kernel, using any other kernel will break features.
+8. Reboot and enjoy!
