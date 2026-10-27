@@ -1,6 +1,11 @@
 # Vₘₐₓ ROM
 ### Tailor-made for the V30, based on LineageOS 22.2 (Android 15)
-[How to install](#installation)
+[How to install](#installation) | [Releases & changelogs](https://github.com/cLick1338/vmax/releases) | [Other info](#other-info)
+
+<img width="160" alt="Lock screen, charging" src="https://github.com/user-attachments/assets/ca61662f-b832-40a1-8129-2be01487c4b0" /> <img width="160" alt="Quick settings, notification" src="https://github.com/user-attachments/assets/8f14efb9-a748-481d-8eb8-ec855534e858" /> <img width="160" alt="Quad DAC Panel" src="https://github.com/user-attachments/assets/d9121b8f-c73e-4a96-93f3-166565c53d57" /> <img width="160" alt="Gamma correction" src="https://github.com/user-attachments/assets/5424a308-ba5c-4016-8b6f-461cabd534c8" /> <img width="160" alt="Display settings" src="https://github.com/user-attachments/assets/3353b1a9-91b7-41a2-9c04-875fabe8a25e" />
+
+
+
 
 **Quad DAC: Bit-perfect audio up to 352.8kHz/32-bit, 384kHz/24-bit & DSD128 (DoP)***
 - Quad DAC QS tile and menu show the current status
@@ -40,5 +45,8 @@ At the moment there's only been extensive testing on H930. Other variants should
 4. Reboot to fastboot/bootloader and fastboot flash recovery the recovery.img (can use LOS recovery but unattended OTA updates do not work with it)
 5. Reboot to recovery, full wipe (only if you're coming from another ROM) then Apply update -> Apply from ADB -> adb sideload the ROM zip
 6. Flash GApps if you need them. Recommend [Lite GApps](https://litegapps.github.io/) 15.0 - [Lite](https://sourceforge.net/projects/litegapps/files/litegapps/arm64/35/lite/2026-10-01/LiteGapps-arm64-15.0-20261001-official.zip/download) or [Core](https://sourceforge.net/projects/litegapps/files/litegapps/arm64/35/core/2026-10-01/LiteGapps-core-arm64-15.0-20261001-official.zip/download) package
-7. If you need root (besides the already available adb root) only use methods that patch the kernel (boot.img); Vmax has a custom kernel, using any other kernel will break features.
-8. Reboot and enjoy!
+7. Reboot and enjoy!
+
+### Other info
+- If you need root (besides the already available adb root) only use methods that patch the kernel (boot.img); Vmax has a custom kernel, using any other kernel will break features.
+- Youtube uses VP9 for HDR for which the chipset can only do software decoding; Performance is improved vs stock but there are still issues and high power usage vs HEVC HDR which gets HW decoded
