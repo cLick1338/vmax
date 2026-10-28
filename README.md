@@ -19,10 +19,10 @@
 - Automatic color mangement with wide gamut and HDR support with SDR coexistence**
 - Improved brightness ramp, lower minimum and HBM (high brightness mode)
 
-**Improved smoothness & responsiveness with equal or better battery life, slightly improved memory**
+**Improved smoothness & responsiveness with equal or better battery life; Slightly improved memory.**
 
 And more:
-- OTA Updates
+- OTA updates with boot image updating optional
 - Quick settings & brightness slider customization (System -> Status bar)
 - 3 button navigation customization (size & color)
 - Spoofing against custom ROM detection (System -> Spoofing)
@@ -32,12 +32,13 @@ And more:
 
 <sub> \* Requires compatible, properly configured players (most work). DSD/DoP requires special support (Contacted Poweramp dev and got DoP support in latest Poweramp beta; UAPP will not get support for now)</sub>
 
-<sub> \** Wide gamut & HDR requires compatible apps. Chrome browsers need certain flags on some pages. Recommend Youtube in browser for HDR, the app can lag more and have wrong tonemapping.</sub>
+<sub> \** Wide gamut & HDR requires compatible apps. Chrome browsers may need certain flags. Recommend Youtube in browser for HDR, the app can lag more and have wrong tonemapping.</sub>
 
+---
 ### Installation
 TL;DR flash the recovery then the ROM
 
-At the moment there's only been extensive testing on H930. Other variants should work but do it at your own risk. Any feedback is always welcome
+At the moment there's only been extensive testing on H930. Other variants work but do it at your own risk. Any feedback is always welcome
 
 1. You need a V30 "joan" model with an unlocked bootloader and a computer with adb+fastboot
 2. [Download the latest release](https://github.com/cLick1338/vmax/releases) on the computer
@@ -46,7 +47,7 @@ At the moment there's only been extensive testing on H930. Other variants should
 5. Reboot to recovery, full wipe (only if you're coming from another ROM) then Apply update -> Apply from ADB -> adb sideload the ROM zip
 6. Flash GApps if you need them. Recommend [Lite GApps](https://litegapps.github.io/) 15.0 - [Lite](https://sourceforge.net/projects/litegapps/files/litegapps/arm64/35/lite/2026-10-01/LiteGapps-arm64-15.0-20261001-official.zip/download) or [Core](https://sourceforge.net/projects/litegapps/files/litegapps/arm64/35/core/2026-10-01/LiteGapps-core-arm64-15.0-20261001-official.zip/download) package
 7. Reboot and enjoy!
-
+---
 ### Other info
-- If you need root (besides the already available adb root) only use methods that patch the kernel (boot.img); Vmax has a custom kernel, using any other kernel will break features.
-- Youtube uses VP9 for HDR for which the chipset can only do software decoding; Performance is improved vs stock but there are still issues and high power usage vs HEVC HDR which gets HW decoded
+- If you need root (besides the available adb root) only use methods that patch boot.img; Vmax has a custom kernel, using any other kernel will break features.
+- Youtube uses VP9 Profile 2 for HDR which is SW-decode-only on SD835; Performance has been improved (in browsers) up to 720p60/1080p30 but there are still issues and SW decode has inherently high power usage. Use HEVC files for HW decoded HDR.
