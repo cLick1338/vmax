@@ -28,6 +28,7 @@ And more:
 - Spoofing against custom ROM detection (System -> Spoofing)
 - Better lockscreen charging info
 - CRT screen off animation
+- FM radio works unplugged & has speaker output
 - & Others
 
 <sub> \* Requires compatible, properly configured players (most work). DSD/DoP requires special support (Contacted Poweramp dev and got DoP support in latest Poweramp beta; UAPP will not get support for now)</sub>
