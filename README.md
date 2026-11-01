@@ -29,6 +29,7 @@ And more:
 - Better lockscreen charging info
 - CRT screen off animation
 - FM radio works unplugged & has speaker output
+- Red light Night Light mode
 - & Others
 
 <sub> \* Requires compatible, properly configured players (most work). DSD/DoP requires special support (Contacted Poweramp dev and got DoP support in latest Poweramp beta; UAPP will not get support for now)</sub>
@@ -39,15 +40,13 @@ And more:
 ### Installation
 TL;DR flash the recovery then the ROM
 
-At the moment there's only been extensive testing on H930. Other variants work but do it at your own risk. Any feedback is always welcome
-
-1. You need a V30 "joan" model with an unlocked bootloader and a computer with adb+fastboot
+1. You need a V30 "joan" model with an **unlocked bootloader** and a computer with **adb+fastboot**
 2. [Download the latest release](https://github.com/cLick1338/vmax/releases) on the computer
-3. Back up everything important from your phone; To avoid FRP issues you should disable the screen lock and remove Google accounts
-4. Reboot to fastboot/bootloader and fastboot flash recovery the recovery.img (can use LOS recovery but unattended OTA updates do not work with it)
-5. Reboot to recovery, full wipe (only if you're coming from another ROM) then Apply update -> Apply from ADB -> adb sideload the ROM zip
+3. **Back up** everything important from your phone; To avoid FRP issues you should disable the screen lock and remove Google accounts
+4. Reboot to fastboot/bootloader and fastboot **flash recovery** the recovery.img (can use LOS recovery but unattended OTA updates do not work with it)
+5. Reboot to recovery, **full wipe** (only if you're coming from another ROM) then Apply update -> Apply from ADB -> **adb sideload the ROM** zip
 6. Flash GApps if you need them. Recommend [Lite GApps](https://litegapps.github.io/) 15.0 - [Lite](https://sourceforge.net/projects/litegapps/files/litegapps/arm64/35/lite/2026-10-01/LiteGapps-arm64-15.0-20261001-official.zip/download) or [Core](https://sourceforge.net/projects/litegapps/files/litegapps/arm64/35/core/2026-10-01/LiteGapps-core-arm64-15.0-20261001-official.zip/download) package
-7. Reboot and enjoy!
+7. **Reboot** and enjoy!
 ---
 ### Other info
 - If you need root (besides the available adb root) only use methods that patch boot.img; Vmax has a custom kernel, using any other kernel will break features.
