@@ -8,7 +8,7 @@
 
 
 **Quad DAC: Bit-perfect audio up to 352.8kHz/32-bit, 384kHz/24-bit & DSD128 (DoP)***
-- Quad DAC QS tile and menu show the current status
+- Quad DAC QS tile and menu show the current status (sample rate, bit depth, impedance)
 - More reliable impedance detection & override modes
 - Up to 50 volume steps with DVC support and AVC configuration
 - Reduced noises and pops when mode switching + other bug fixes
